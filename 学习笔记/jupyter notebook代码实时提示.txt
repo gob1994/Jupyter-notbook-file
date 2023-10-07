@@ -1,0 +1,10 @@
+-----------------OK-----------------
+经过验证，无需安装额外插件或库，jupyter notebook自带有代码实时提示功能。提示快捷键如下：
+Tab是函数和属性等关键字提示
+shift+tab是函数具体参数和语法提示
+
+
+
+参考网址：
+https://blog.csdn.net/weixin_44059619/article/details/130910474
+https://www.python100.com/html/1N9T5EPS109F.html

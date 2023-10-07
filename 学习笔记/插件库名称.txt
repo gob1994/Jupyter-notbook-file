@@ -1,0 +1,21 @@
+----------------数据分析常用库-----------------
+import pandas as pd								引入数据业务分析库（此基于numpy）
+import numpy as np								引入数据计算功能库
+import matplotlib.pyplot as plt							引入数据可视化功能库
+
+from pandas import Series,DataFrame					简化调用Series和DataFrame功能
+import seaborn as sns								引入数据可视化的功能库（此基于matplotlib）
+import openpyxl									引入实现python（包括：pandas）读取excel文件功能库
+
+%matplotlib inline									实现在jupyter notebook文本文档中实现图形可视化绘制的效果
+
+
+安装库的命令：
+pip install pandas -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+
+
+
+--------------------其它库--------------------
+import pygame as pg									引入游戏开发库
+from pygame.locals import *								引入pygame中所有的子模块库，包括：鼠标控制模块、键盘控制模块、音乐控制模块等功能块库

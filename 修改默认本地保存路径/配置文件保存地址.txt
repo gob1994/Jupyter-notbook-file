@@ -1,0 +1,6 @@
+==============修改配置文件的具体操作方法===============
+1、打开“C:\Users\Administrator\.jupyter”目录，并找到“jupyter_notebook_config.py”文件（注意：如果看不到的此文件，就需要先启动jupyter notebook界面后才能找到<有时需要刷新后才能看到>）
+
+2、打开“jupyter_notebook_config.py”文件后，按ctrl+f打开查找窗口，并用  # c.ServerApp.root_dir = ''  进行查找；找到此行后，去掉全面的#号，并且在''（单引号）内添加需要存放文件的路径即可；最终把此行改成  c.ServerApp.root_dir = 'D:\Jupyter notbook file'，然后重新关闭jupyter notebook，并重新启动就可以了。
+
+3、也可以将在此目录里的 jupyter_notebook_config（修改后）.py文件直接复制粘贴到“C:\Users\Administrator\.jupyter”目录，并把jupyter_notebook_config（修改后）.py文件名修改成jupyter_notebook_config.py文件名，替换掉原来的相同文件即可

@@ -1,0 +1,9 @@
+1、安装git软件
+
+2、（配置）启动git软件--》git config --global user.name Eric--》git config --global user.email Eric@126.com
+
+3、（下载源码）先进入要下载保存源码的文件夹--》右击空白处--》选择“Git Bash Here”--》git clone https://github.com/3150601355/Novel_In_Image.git（此路径可以复制git官网中要下载对象的地址）【注意：下载后的.git文件夹最好不要操作，保存与版本相关的文件】
+
+4、（管理自己新建的文件夹项目）先新建一个项目文件夹--》右击空白处--》选择“Git Bash Here”--》git init--》接着把新建的代码文件保存进此项目文件夹里--》（设置准备上传的文件）git add . 【注意：.表示当前文件夹下的所有文件；也可以指定一个文件来替代.】--》git commit -m "说明性文字内容"--》（查看提交到仓库的情况）git log
+
+5、（恢复被修改的文件）git checkout HEAD 需要恢复文件名.后缀名
